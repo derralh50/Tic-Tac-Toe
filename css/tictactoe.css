@@ -1,0 +1,131 @@
+html{
+  font-size: 14px;
+  color: black;
+}
+
+header{
+  background-color: darkblue;
+  height: 3rem;
+  width:22rem;
+  text-align: center;
+}
+
+body{
+  background-color: white;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+section{
+  background-color: lightblue;
+  margin-top:.25rem;
+  padding: 2rem;
+  width: 18rem;
+  height: 40rem;
+}
+
+h1{
+  color: white;
+  text-align: left;
+  margin: .75rem;
+  font-size: 2.75rem;
+}
+
+[id='1']{
+  float:left;
+  font-size: 3.5rem;
+  text-align:center;
+  width:4.5rem;
+  height:4.5rem;
+  border-right:3px solid black;
+  border-bottom:3px solid black;
+}
+
+[id='2']{
+  float:left;
+  text-align:center;
+  font-size: 3.5rem;
+  width:4.5rem;
+  height:4.5rem;
+  border-right:3px solid black;
+  border-bottom:3px solid black;
+}
+
+[id='3']{
+  float:left;
+  text-align:center;
+  font-size: 3.5rem;
+  width:4.5rem;
+  height:4.5rem;
+  border-bottom:3px solid black;
+}
+
+[id='4']{
+  float:left;
+  text-align:center;
+  font-size: 3.5rem;
+  width:4.5rem;
+  height:4.5rem;
+  border-bottom:3px solid black;
+}
+
+[id='5']{
+  float:left;
+  text-align:center;
+  font-size: 3.5rem;
+  width:4.5rem;
+  height:4.5rem;
+  border-left:3px solid black;
+  border-bottom:3px solid black;
+}
+
+[id='6']{
+  float:left;
+  text-align:center;
+  font-size: 3.5rem;
+  width:4.5rem;
+  height:4.5rem;
+  border-left:3px solid black;
+  border-bottom:3px solid black;
+}
+
+[id='7']{
+  float:left;
+  text-align:center;
+  font-size: 3.5rem;
+  width:4.5rem;
+  height:4.5rem;
+}
+
+[id='8']{
+  float:left;
+  text-align:center;
+  font-size: 3.5rem;
+  width:4.5rem;
+  height:4.5rem;
+  border-left:3px solid black;
+}
+
+[id='9']{
+  float:left;
+  text-align:center;
+  font-size: 3.5rem;
+  width:4.5rem;
+  height:4.5rem;
+  border-left: 3px solid black;
+}
+
+#Xs1, #Xs2, #Xs3, #Xs4, #Xs5{
+  display: inline-table;
+}
+
+#X1, #X2, #X3, #X4, #X5{
+  display: inline-table;
+}
+
+footer{
+  background-color: darkblue;
+  text-align: center;
+  color: white;
+  margin-top: 35rem;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/tictactoe.css">
+</head>
+<body>
+    <header>
+      <h1>Tic Tac Toe</h>
+    </header>
+  <section>
+    <h2>Games won (X): <b id="xgames"></b></h2>
+    <h2>Games won (0): <b id="ogames"></b></h2>
+    <h2>Draw games: <b id="dgames"></b></h2>
+
+<!--The game board,-->
+    <div id="1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div style="clear: left;"></div>
+    <div id="4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div style="clear: left;"></div>
+    <div id="7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div style="clear: left;"></div><br>
+
+<!--The five Xs.-->
+    <div id="Xs1"><image id="X1" src="images/X.jpg" draggable="true" ondragstart="drag(event)" width="46" height="54"></image></div>
+    <div id="Xs2"><image id="X2" src="images/X.jpg" draggable="true" ondragstart="drag(event)" width="46" height="54"></image></div>
+    <div id="Xs3"><image id="X3" src="images/X.jpg" draggable="true" ondragstart="drag(event)" width="46" height="54"></image></div>
+    <div id="Xs4"><image id="X4" src="images/X.jpg" draggable="true" ondragstart="drag(event)" width="46" height="54"></image></div>
+    <div id="Xs5"><image id="X5" src="images/X.jpg" draggable="true" ondragstart="drag(event)" width="46" height="54"></image></div>
+
+    <h2 id="output">X plays first.</h2>
+    <h4>(Drag and drop)</h4>
+    <input id = "newgame" type = "button" value = "Play Again" /></p>
+
+    <p><input id = "reload" type = "button" value = "Reset Scores" size="10"/></p>
+  </section>
+
+    <script src="js/tictactoe.js" charset="utf-8"></script>
+    <footer>
+        Copyright &copy no one in particular...
+    </footer>
+</body>
+</html>
