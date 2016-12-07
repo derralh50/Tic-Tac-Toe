@@ -1,6 +1,6 @@
 Tic Tac Toe
 
-No Jquerry...
+No Jquery...
 
 This is an outstanding code example that I wrote last year.
 
